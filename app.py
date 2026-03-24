@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
+import pickle
 
 st.title("App con CSV")
 
