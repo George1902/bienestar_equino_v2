@@ -6,6 +6,10 @@ import os
 
 # ── CONFIGURACIÓN ─────────────────────────────────────────
 st.set_page_config(
+    page_title="Bienestar Equino — Analizador de Riesgo Clínico Equino",
+    page_icon="🐴",
+    layout="centered"
+)
 
 # ── ESTILO CSS ────────────────────────────────────────────
 st.markdown("""
