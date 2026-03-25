@@ -28,7 +28,7 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-    page_title="Analizador de Riesgo Clínico Equino",
+    page_title="Bienestar Equino — Analizador de Riesgo Clínico Equino",
     page_icon="🐴",
     layout="centered"
 )
