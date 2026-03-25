@@ -23,8 +23,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-<style>
-
 st.markdown("""
 <style>
 .main-subtitle {
