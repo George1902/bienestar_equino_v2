@@ -16,13 +16,13 @@ st.markdown("""
     <style>
     .main-title {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 4.5rem;
         font-weight: bold;
         padding-top: 1rem;
     }
     .main-subtitle {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 3.2rem;
         color: gray;
         margin-bottom: 1rem;
     }
