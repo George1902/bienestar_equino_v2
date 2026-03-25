@@ -302,8 +302,8 @@ if st.session_state.historial:
         st.rerun()
                      
  st.divider()
-    st.caption("""
-    ⚠️ Este modelo es una herramienta de apoyo clínico con
-    65% de accuracy. No reemplaza el diagnóstico veterinario
-    profesional. Desarrollado por Jorge Ojeda.
-    """)
+ st.caption("""
+ ⚠️ Este modelo es una herramienta de apoyo clínico con
+ 65% de accuracy. No reemplaza el diagnóstico veterinario
+ profesional. Desarrollado por Jorge Ojeda.
+ """)
