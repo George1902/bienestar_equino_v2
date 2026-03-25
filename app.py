@@ -34,15 +34,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ENCABEZADO (CORREGIDO)
-st.markdown(
-    '<div class="main-title">🐎 Analizador de Riesgo Clínico Equino</div>',
-    unsafe_allow_html=True)
-
-st.markdown(
-    '<div class="main-subtitle">Herramienta de apoyo clínico veterinario</div>',
-    unsafe_allow_html=True)
-
 # CARGA DE MODELOS
 @st.cache_resource
 def cargar_modelos():
