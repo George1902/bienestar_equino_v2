@@ -431,7 +431,9 @@ with tab1:
     "\u26a0\ufe0f Herramienta de apoyo basada en análisis "
     "de variables clínicas. Diseñada para complementar "
     "la evaluación veterinaria profesional, no sustituir "
-    "el juicio clínico. Desarrollado por Jorge Ojeda.")
+    "el juicio clínico. Desarrollado por Jorge Ojeda."
+    layout="centered"
+    )
 # ══════════════════════════════════════════════════════════
 # TAB 2 - HISTORIAL
 # ══════════════════════════════════════════════════════════
@@ -451,13 +453,13 @@ with tab2:
         col1, col2, col3 = st.columns(3)
         sobreviven = sum(
             1 for h in st.session_state.historial
-            if 'Sobrevive' in h['Pronóstico'])
+            if 'Sobrevive' in h['Pronostico'])
         en_riesgo = sum(
             1 for h in st.session_state.historial
-            if 'Alto riesgo' in h['Pronóstico'])
+            if 'Alto riesgo' in h['Pronostico'])
         eutanasia = sum(
             1 for h in st.session_state.historial
-            if 'Eutanasia' in h['Pronóstico'])
+            if 'Eutanasia' in h['Pronostico'])
 
         col1.metric("\u2705 Sobreviven", sobreviven)
         col2.metric("\u274c Alto riesgo", en_riesgo)
