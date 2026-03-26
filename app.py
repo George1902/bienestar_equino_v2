@@ -426,14 +426,18 @@ with tab1:
         except Exception as e:
             st.error(f"Error en prediccion: {e}")
 
-        st.divider()
-    st.caption(
-    "\u26a0\ufe0f Herramienta de apoyo basada en análisis "
-    "de variables clínicas. Diseñada para complementar "
-    "la evaluación veterinaria profesional, no sustituir "
-    "el juicio clínico. Desarrollado por Jorge Ojeda."
-    layout="centered"
-    )
+    st.divider()
+
+st.markdown(
+    """
+    <div style="text-align: center; color: gray; font-size: 0.85em;">
+        ⚠️ Herramienta de apoyo basada en análisis de variables clínicas. 
+        Diseñada para complementar la evaluación veterinaria profesional, 
+        no sustituye el juicio clínico. Desarrollado por Jorge Ojeda.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 # ══════════════════════════════════════════════════════════
 # TAB 2 - HISTORIAL
 # ══════════════════════════════════════════════════════════
