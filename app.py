@@ -162,14 +162,14 @@ def motor_clinico(pulse, rectal_temp, pain, peristalsis,
 
 # ENCABEZADO
 st.markdown(
-    '<p class="main-title">\U0001f434 Analizador de Riesgo Clinico Equino</p>',
+    '<p class="main-title">\U0001f434 Analizador de Riesgo Clínico Equino</p>',
     unsafe_allow_html=True)
 st.markdown(
-    '<p class="main-subtitle">Herramienta de apoyo clinico veterinario</p>',
+    '<p class="main-subtitle">Herramienta de apoyo clínico veterinario</p>',
     unsafe_allow_html=True)
 st.warning(
     "\u26a0\ufe0f Esta herramienta es un apoyo basado en "
-    "Machine Learning. No reemplaza el diagnostico "
+    "Machine Learning. No reemplaza el diagnóstico "
     "veterinario profesional.")
 st.divider()
 
@@ -182,7 +182,7 @@ tab1, tab2 = st.tabs(["\U0001f50d Analizar caballo",
 # ══════════════════════════════════════════════════════════
 with tab1:
 
-    st.header("\U0001f4cb Datos clinicos del caballo")
+    st.header("\U0001f4cb Datos clínicos del caballo")
 
     nombre_caballo = st.text_input(
         "\U0001f40e Nombre del caballo",
@@ -373,7 +373,7 @@ with tab1:
                     "del paciente.")
             else:
                 st.write(
-                    "El perfil clinico muestra alteraciones leves, "
+                    "El perfil clínico muestra alteraciones leves, "
                     "sin evidencia clara de compromiso severo.")
 
             # Alertas clinicas
@@ -428,10 +428,10 @@ with tab1:
 
         st.divider()
     st.caption(
-    "\u26a0\ufe0f Herramienta de apoyo basada en analisis "
-    "de variables clinicas. Diseñada para complementar "
-    "la evaluacion veterinaria profesional, no sustituir "
-    "el juicio clinico. Desarrollado por Jorge Ojeda.")
+    "\u26a0\ufe0f Herramienta de apoyo basada en análisis "
+    "de variables clínicas. Diseñada para complementar "
+    "la evaluación veterinaria profesional, no sustituir "
+    "el juicio clínico. Desarrollado por Jorge Ojeda.")
 # ══════════════════════════════════════════════════════════
 # TAB 2 - HISTORIAL
 # ══════════════════════════════════════════════════════════
